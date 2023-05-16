@@ -1,11 +1,11 @@
-.blog{
+.blog {
   width: 80%;
 }
-.App{
+.App {
   display: flex;
-  padding: 5%;
+  padding: 2%;
 }
-.blogSnips{
+.blogSnips {
   display: flex;
   flex-direction: column;
 }
@@ -13,7 +13,7 @@
   /* display: flex; */
   /* flex-wrap: wrap; */
 }
-.blogSnip:hover{
+.blogSnip:hover {
   box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
 }
 .blogSnip {
@@ -53,29 +53,82 @@
 }
 
 .readMoreButton {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
+  color: #05afc2;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 5px 5px 5px 0px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.readMoreButton:hover {
+  color: rgb(108, 234, 108);
   cursor: pointer;
 }
-.readMoreButton:hover{
-  background-color: rgb(108, 234, 108);
-  color: #fff;
-  cursor: pointer
-}
-.blog-header{
+.blog-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.blog-data{
+.blog-data {
   padding: 1%;
 }
-.blog{
+.blog {
   padding: 1%;
-  margin:  0 2%;
+  margin: 0 2%;
 }
-.blogSnips{
+.blogSnips {
   padding: 1%;
+}
+.blog-data img {
+  width: 50%;
+  height: auto;
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 3% 0;
+}
+.blog-header h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #666;
+  font-style: italic;
+}
+.blog-header h1 {
+  text-decoration: capitalize;
+  color: red;
+}
+nav{
+  border-bottom: 1px solid #666;
+}
+nav h1 {
+  font-weight: 1000;
+  font-size: 50px;
+  padding: 2% 5%;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  /* justify-content: center; */
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content p {
+  margin: 0 10px;
+}
+
+
+@media (max-width: 768px) {
+
 }

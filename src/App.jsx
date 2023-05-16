@@ -10,13 +10,14 @@ const data = [
     description: "This is the description",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "https://example.com/image.jpg",
+    image: "../public",
   },
   {
     title: "Two in the Sky",
     date: "2022-04-05",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -24,7 +25,8 @@ const data = [
     date: "2022-05-15",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -32,7 +34,8 @@ const data = [
     date: "2022-06-10",
     description:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -40,7 +43,8 @@ const data = [
     date: "2022-07-25",
     description:
       "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -48,7 +52,8 @@ const data = [
     date: "2022-08-12",
     description:
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -56,7 +61,8 @@ const data = [
     date: "2022-09-30",
     description:
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -64,7 +70,8 @@ const data = [
     date: "2022-10-18",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -72,7 +79,8 @@ const data = [
     date: "2022-11-05",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
   {
@@ -80,7 +88,8 @@ const data = [
     date: "2022-12-20",
     description:
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    article: "",
+    article:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
     image: "",
   },
 ];
@@ -89,23 +98,34 @@ function App() {
   const { title, date, description, article, image } = currentBlog;
 
   return (
-    <div className="App">
-      <div className="blog">
-        {
-          <Blog
-            title={title}
-            date={date}
-            description={description}
-            article={article}
-            image={image}
-          />
-        }
-      </div>
+    <>
+      <nav>
+        <h1>Blogify</h1>
+      </nav>
+      <div className="App">
+        <div className="blog">
+          {
+            <Blog
+              title={title}
+              date={date}
+              description={description}
+              article={article}
+              image={image}
+            />
+          }
+        </div>
 
-      <div className="blogSnips">
-        {<BlogSnips data={data} setCurrentBlog={setCurrentBlog} />}
+        <div className="blogSnips">
+          {<BlogSnips data={data} setCurrentBlog={setCurrentBlog} />}
+        </div>
       </div>
-    </div>
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Blogify. All rights reserved.</p>
+          <p>Contact: example@email.com</p>
+        </div>
+      </footer>
+    </>
   );
 }
 

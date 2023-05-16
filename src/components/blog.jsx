@@ -5,9 +5,14 @@ export default function Blog({ title, date, image, article }) {
     <div className="blog-data">
       <div className="blog-header">
         <h1>{title}</h1>
-        <h2>{date}</h2>
+        <h2> published {date}</h2>
       </div>
-      <img src={image} alt="Blog" />
+
+      <img
+        src="../public/_93d537c5-296d-4878-9d63-4fd2ba5a2aeb.jpg"
+        // src={image}
+        alt="Blog"
+      />
       <div className="blog-body">
         <p>{article}</p>
       </div>
