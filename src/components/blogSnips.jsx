@@ -20,7 +20,7 @@ export default function BlogSnips({ data, setCurrentBlog }) {
               {blog.description.length > 30 ? "..." : ""}
             </p>
             <a className="readMoreButton" onClick={() => setCurrentBlog(blog)}>
-              Read More{">"}
+              Read More {">"}
             </a>
           </div>
         </div>
