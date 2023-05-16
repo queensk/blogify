@@ -7,8 +7,7 @@ export default function BlogSnips({ data, setCurrentBlog }) {
         <div key={index} className="blogSnip">
           <div className="blogImage">
             <img
-              src="../public/_93d537c5-296d-4878-9d63-4fd2ba5a2aeb.jpg"
-              // src={blog.image}
+              src={blog.image}
               alt="Blog"
             />
           </div>

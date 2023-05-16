@@ -9,8 +9,7 @@ export default function Blog({ title, date, image, article }) {
       </div>
 
       <img
-        src="../public/_93d537c5-296d-4878-9d63-4fd2ba5a2aeb.jpg"
-        // src={image}
+        src={image}
         alt="Blog"
       />
       <div className="blog-body">

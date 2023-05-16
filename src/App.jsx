@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Blog from "./components/blog";
 import BlogSnips from "./components/blogSnips";
+import Image from "./assets/_93d537c5-296d-4878-9d63-4fd2ba5a2aeb.jpg";
 
 const data = [
   {
@@ -10,7 +11,7 @@ const data = [
     description: "This is the description",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "../public",
+    image: Image,
   },
   {
     title: "Two in the Sky",
@@ -18,7 +19,7 @@ const data = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Three by the Sea",
@@ -27,7 +28,7 @@ const data = [
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Four in the Forest",
@@ -36,7 +37,7 @@ const data = [
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Five in the Field",
@@ -45,7 +46,7 @@ const data = [
       "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Six under the Sun",
@@ -54,7 +55,7 @@ const data = [
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Seven in the City",
@@ -63,7 +64,7 @@ const data = [
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Eight in the Mountains",
@@ -72,7 +73,7 @@ const data = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Nine by the River",
@@ -81,7 +82,7 @@ const data = [
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
   {
     title: "Ten in the Desert",
@@ -90,7 +91,7 @@ const data = [
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     article:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante mauris. Suspendisse euismod bibendum risus, et condimentum elit viverra non. Aenean scelerisque aliquam dolor vel tincidunt. Nunc accumsan eros ac eros iaculis gravida. Integer ac metus interdum, fringilla urna id, tempus mauris. Sed auctor ullamcorper quam, id malesuada risus. Sed id mauris non arcu varius laoreet non sit amet ex. Sed scelerisque ligula sed mi auctor, ut semper diam aliquet. Phasellus quis ligula vestibulum, venenatis nibh et, interdum turpis. Maecenas laoreet justo quis elit eleifend, nec rutrum lorem interdum. Proin malesuada fringilla magna, vitae sollicitudin ante tempor non. Sed pulvinar ultricies dui ac dictum. Etiam pulvinar turpis eget dapibus tristique. Sed sed turpis in ipsum placerat bibendum. Phasellus at sem vel lacus accumsan malesuada.",
-    image: "",
+    image: Image,
   },
 ];
 function App() {
@@ -122,7 +123,7 @@ function App() {
       <footer>
         <div class="footer-content">
           <p>&copy; 2023 Blogify. All rights reserved.</p>
-          <p>Contact: example@email.com</p>
+          <p>Contact: Blogify@email.com</p>
         </div>
       </footer>
     </>
