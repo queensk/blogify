@@ -116,7 +116,7 @@ function App() {
       </div>
       <footer>
         <div class="footer-content">
-          <p>&copy; 2023 Blogify. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear().toString(10)} Blogify. All rights reserved.</p>
           <p>Contact: Blogify@email.com</p>
         </div>
       </footer>
