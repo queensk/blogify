@@ -3,6 +3,7 @@ import React from "react";
 export default function BlogSnips({ data, setCurrentBlog }) {
   return (
     <div className="blogSnipsContainer">
+      <h2 className="blog-header">Blogs</h2>
       {data.map((blog, index) => (
         <div key={index} className="blogSnip">
           <div className="blogImage">

@@ -129,6 +129,10 @@ footer {
   margin: 0 10px;
 }
 
+.blog-header{
+  padding: 10px;
+  font-style: italic;
+}
 @media (max-width: 768px) {
   .App {
     display: flex;
