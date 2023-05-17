@@ -12,7 +12,8 @@ export default function Blog({ title, date, image, article }) {
       <div className="blog-body">
         {paragraphs.map((paragraph, index) => (
           <>
-            <p key={index}>{paragraph}</p>
+            {paragraph.length < 50 && <h1 key={index}>{paragraph}</h1>}
+            {paragraph.length > 50 && <p key={index}>{paragraph}</p>}
             <br />
           </>
         ))}

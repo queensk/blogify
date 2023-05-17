@@ -79,6 +79,7 @@
 }
 .blogSnips {
   padding: 1%;
+  width: 100%;
 }
 .blog-data img {
   width: 50%;
@@ -140,4 +141,8 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  .blog {
+  width: 100%;
+  padding: 2%;
+}
 }
