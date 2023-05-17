@@ -12,7 +12,11 @@ export default function Blog({ title, date, image, article }) {
       <div className="blog-body">
         {paragraphs.map((paragraph, index) => (
           <>
-            {paragraph.length < 50 && <h1 key={index}>{paragraph}</h1>}
+            {paragraph.length < 50 && (
+              <h1 className="blog-tittle-color" key={index}>
+                {paragraph}
+              </h1>
+            )}
             {paragraph.length > 50 && <p key={index}>{paragraph}</p>}
             <br />
           </>

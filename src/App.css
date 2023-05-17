@@ -133,6 +133,9 @@ footer {
   padding: 10px;
   font-style: italic;
 }
+.blog-tittle-color{
+  color: #A62F03;
+}
 @media (max-width: 768px) {
   .App {
     display: flex;
