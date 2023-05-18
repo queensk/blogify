@@ -4,6 +4,13 @@ import Blog from "./components/blog";
 import BlogSnips from "./components/blogSnips";
 import Image from "./assets/_93d537c5-296d-4878-9d63-4fd2ba5a2aeb.jpg";
 import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import Home from "./pages/Home";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+
+import About from "./pages/About";
+import Newsletter from "./pages/Newsletter";
+import FAQs from "./pages/FAQs";
 
 const data = [
   {
@@ -95,13 +102,14 @@ function App() {
 
   return (
     <>
-      <nav>
-        <h1>Blogify</h1>
-      </nav>
-      <div className="App">
-        <div className="blog">
-          {
-            <Blog
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Home
+              data={data}
+              setCurrentBlog={setCurrentBlog}
               title={title}
               date={date}
               description={description}
@@ -109,12 +117,11 @@ function App() {
               image={image}
             />
           }
-        </div>
-
-        <div className="blogSnips">
-          {<BlogSnips data={data} setCurrentBlog={setCurrentBlog} />}
-        </div>
-      </div>
+        />
+        <Route path="/about" element={<About />} />
+        <Route path="/newsletter" element={<Newsletter />} />
+        <Route path="/faqs" element={<FAQs />} />
+      </Routes>
       <Footer />
     </>
   );
