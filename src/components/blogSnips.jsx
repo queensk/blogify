@@ -7,10 +7,7 @@ export default function BlogSnips({ data, setCurrentBlog }) {
       {data.map((blog, index) => (
         <div key={index} className="blogSnip">
           <div className="blogImage">
-            <img
-              src={blog.image}
-              alt="Blog"
-            />
+            <img src={blog.image} alt="Blog" />
           </div>
           <div className="blogInfo">
             <h1 className="blogTitle">{blog.title}</h1>
