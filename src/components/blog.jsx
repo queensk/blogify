@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLink } from "react-icons/fa";
 
 export default function Blog({ title, date, image, article }) {
   const paragraphs = article.split("\n");
@@ -15,6 +16,9 @@ export default function Blog({ title, date, image, article }) {
             {paragraph.length < 50 && (
               <h1 className="blog-tittle-color" key={index}>
                 {paragraph}
+                <span className="blog-tittle-icon">
+                  <FaLink />
+                </span>
               </h1>
             )}
             {paragraph.length > 50 && <p key={index}>{paragraph}</p>}
