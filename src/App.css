@@ -103,6 +103,12 @@
 }
 nav {
   border-bottom: 1px solid #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+  /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 nav h1 {
   font-weight: 1000;
@@ -111,13 +117,15 @@ nav h1 {
   display: flex;
   align-items: center;
   font-style: italic;
-  /* justify-content: center; */
 }
 
 footer {
   background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-content {
@@ -145,6 +153,133 @@ footer {
   display: inline-block;
   cursor: pointer;
 }
+.nav-links {
+  /* width: 40%; */
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-links a {
+  margin: 2%;
+  padding: 1% 4%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.nav-links a svg {
+  /* margin: 3%; */
+  /* padding: 1% 5%; */
+  /* height: 30px; */
+  /* width: 100%; */
+}
+.nav-links a:hover {
+  color: #fff;
+  border-radius: 10px;
+  background-color: #f20505;
+}
+
+/* About */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #f20505;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+/* Newsletter */
+
+.newsletter-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input[type="email"] {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+button svg {
+  width: 30px;
+  height: auto;
+  margin: 4%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* FAQs */
+.faqs-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 @media (max-width: 768px) {
   .App {
     display: flex;
