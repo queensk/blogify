@@ -3,6 +3,7 @@ import "./App.css";
 import Blog from "./components/blog";
 import BlogSnips from "./components/blogSnips";
 import Image from "./assets/_93d537c5-296d-4878-9d63-4fd2ba5a2aeb.jpg";
+import Footer from "./components/footer";
 
 const data = [
   {
@@ -114,17 +115,7 @@ function App() {
           {<BlogSnips data={data} setCurrentBlog={setCurrentBlog} />}
         </div>
       </div>
-      <footer>
-        <div class="footer-content">
-          <p>
-            &copy; {new Date().getFullYear().toString()} Blogify. All rights
-            reserved. | Today's date {new Date().toLocaleDateString()}
-          </p>
-
-          <p>Contact: Blogify@email.com</p>
-          <p>By Queens Kisivuli</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
